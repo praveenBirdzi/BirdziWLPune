@@ -1,0 +1,6 @@
+framework module Pods_BirdziTests {
+  umbrella header "Pods-BirdziTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

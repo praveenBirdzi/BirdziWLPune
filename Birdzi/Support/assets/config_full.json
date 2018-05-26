@@ -1,0 +1,60 @@
+{
+  "version": "3.0.0-0",
+  "splash_image": "http://www.birdzi.com/wp-content/uploads/2016/04/Slider_3.jpg",
+  "bg_image": "http://www.birdzi.com/wp-content/uploads/2016/04/Slider_3.jpg",
+  "bg_color": "white",
+  "ckey": "",
+  "advertisingidentifier":"B691A224-537E-46B0-A629-9F3D096F12DD@MDE2MjAwNzI0MzUxMjE5ODMyOTEwMDAwMjk4NTcyMDE4MjA0MjExMzEwNDQxNDI1MTM4NDA3KzAw",
+  "appKey": "7yny97nmlLhppyxdC6gegeb3bzg2",
+  "cID": "6",
+  "UUID": "",
+  "socialEnabled": true,
+  "vendorFooter": true,
+  "isLoyalty": false,
+  "isLoading" : true,
+  "iconVisible": true,
+  "splash_text": "Overlook_marketplace",
+  "splashTextVisible": true,
+    "progressVisible": true,
+    "URL":[
+           {
+           "Base":"",
+           "Login":"",
+           "ValidateEmail":"",
+           "Register":"",
+           "ForgotPass":"",
+           "Dashboard":"",
+           "LoyaltyValidate":""
+           }
+           ],
+    "Language":[{
+                "en":"English",
+                "sp":"Spanish"
+    }],
+    "APIKey":[{
+              "Facebook":"",
+              "Google_Login":"28277024700-099cnjqlihreav1n8ot9tl4gb2gnodl2.apps.googleusercontent.com",
+              "Twitter":"hZWixCs9oYXFeVVZNvC0xHx0P",
+              "TwitterSecret":"folaPIdbkrVYlLl2zfesoE6aPb6yXiFpEDE4RjYzj1cv42CgpH",
+
+              "Hockey":"631524d2b0be4ced8eec1e6c99cd2941",
+              "Google_Anyalists":"",
+              "Facebook_anyalist":""
+              
+    }],
+    "ScreenID":[{
+              "Splash":"0",
+              "Login":"1",
+              "Password":"2",
+              "Home":"3",
+              "ShopingList":"4",
+              "Offers":"5",
+              "Flyers":"6",
+              "MyFav":"7",
+              "Recipes":"8",
+              "pairings":"9",
+              "Rewards":"10",
+              "Settings":"11",
+              "Help":"12"
+              }]
+}

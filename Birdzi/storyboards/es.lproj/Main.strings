@@ -1,0 +1,120 @@
+
+/* Class = "UILabel"; text = "overlook"; ObjectID = "09O-oB-3ik"; */
+"09O-oB-3ik.text" = "pasar por alto";
+
+/* Class = "UILabel"; text = "marketplace"; ObjectID = "2Wn-qe-DZs"; */
+"2Wn-qe-DZs.text" = "mercado";
+
+/* Class = "UITextField"; placeholder = "last name"; ObjectID = "5td-JL-Iyf"; */
+"5td-JL-Iyf.placeholder" = "apellido";
+
+/* Class = "UIViewController"; title = "Password"; ObjectID = "69y-3J-dbW"; */
+"69y-3J-dbW.title" = "Contraseña";
+
+/* Class = "UITextField"; placeholder = "first name"; ObjectID = "7PM-0m-IDk"; */
+"7PM-0m-IDk.placeholder" = "nombre de pila";
+
+/* Class = "UILabel"; text = "shoping list"; ObjectID = "7mN-xW-sJn"; */
+"7mN-xW-sJn.text" = "lista de la compra";
+
+/* Class = "UILabel"; text = "welcome guest"; ObjectID = "9JW-NS-kjm"; */
+"9JW-NS-kjm.text" = "Bienvenido Invitado";
+
+/* Class = "UITextField"; placeholder = "_"; ObjectID = "AEQ-7l-Fj1"; */
+"AEQ-7l-Fj1.placeholder" = "_";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "AK6-Bj-oTg"; */
+"AK6-Bj-oTg.normalTitle" = "CANCELAR";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "Aoj-Dx-sEm"; */
+"Aoj-Dx-sEm.normalTitle" = "<";
+
+/* Class = "UILabel"; text = "generating awesomesauce"; ObjectID = "Ap4-6P-bAA"; */
+"Ap4-6P-bAA.text" = "generando awesomesauce";
+
+/* Class = "UILabel"; text = "overlook"; ObjectID = "BGl-sa-ckt"; */
+"BGl-sa-ckt.text" = "pasar por alto";
+
+/* Class = "UILabel"; text = "0 items"; ObjectID = "ECX-Q9-HRq"; */
+"ECX-Q9-HRq.text" = "0 artículos";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "F2S-eq-fXc"; */
+"F2S-eq-fXc.normalTitle" = ">";
+
+/* Class = "UILabel"; text = "almost there!"; ObjectID = "FQI-te-M2i"; */
+"FQI-te-M2i.text" = "casi allí!";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "FyR-NK-0NG"; */
+"FyR-NK-0NG.normalTitle" = ">";
+
+/* Class = "UITextField"; placeholder = "_"; ObjectID = "GjN-Dw-Wpa"; */
+"GjN-Dw-Wpa.placeholder" = "_";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "IKy-uB-43p"; */
+"IKy-uB-43p.title" = "Iniciar sesión";
+
+/* Class = "UIButton"; normalTitle = "Back To Home"; ObjectID = "K2Y-py-DYB"; */
+"K2Y-py-DYB.normalTitle" = "De vuelta a casa";
+
+/* Class = "UILabel"; text = "marketplace"; ObjectID = "K4V-z7-Gnl"; */
+"K4V-z7-Gnl.text" = "mercado";
+
+/* Class = "UITextField"; placeholder = "e-mail"; ObjectID = "MRk-Oe-kfk"; */
+"MRk-Oe-kfk.placeholder" = "correo electrónico";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "NUh-pq-wPu"; */
+"NUh-pq-wPu.placeholder" = "correo electrónico";
+
+/* Class = "UITextField"; placeholder = "_"; ObjectID = "Nox-vR-urN"; */
+"Nox-vR-urN.placeholder" = "_";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "OGp-y9-L7D"; */
+"OGp-y9-L7D.normalTitle" = "<";
+
+/* Class = "UITextField"; placeholder = "_"; ObjectID = "RPr-ex-uXq"; */
+"RPr-ex-uXq.placeholder" = "_";
+
+/* Class = "UILabel"; text = "sign-in or sign-up"; ObjectID = "XFq-C2-rC6"; */
+"XFq-C2-rC6.text" = "Inicia sesión o regístrate";
+
+/* Class = "UITextField"; placeholder = "_"; ObjectID = "Xih-Hg-BdX"; */
+"Xih-Hg-BdX.placeholder" = "_";
+
+/* Class = "UITextField"; placeholder = "phone"; ObjectID = "ajk-Qd-Tc3"; */
+"ajk-Qd-Tc3.placeholder" = "teléfono";
+
+/* Class = "UIViewController"; title = "iForgot"; ObjectID = "dNZ-Vd-7sp"; */
+"dNZ-Vd-7sp.title" = "olvidé";
+
+/* Class = "UITextField"; placeholder = "    add to your list"; ObjectID = "dal-0q-yC6"; */
+"dal-0q-yC6.placeholder" = "    agregar a su lista";
+
+/* Class = "UIViewController"; title = "Register"; ObjectID = "hkF-R3-Sn1"; */
+"hkF-R3-Sn1.title" = "Registro";
+
+/* Class = "UILabel"; text = "still having trouble ?"; ObjectID = "ioH-c2-yTv"; */
+"ioH-c2-yTv.text" = "Todavía tiene problemas?";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "mW6-MT-kU0"; */
+"mW6-MT-kU0.normalTitle" = "HECHO";
+
+/* Class = "UILabel"; text = "marketplace"; ObjectID = "rSz-vq-u6m"; */
+"rSz-vq-u6m.text" = "mercado";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "sYd-bo-cBh"; */
+"sYd-bo-cBh.title" = "Casa";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "tcQ-Cc-m2p"; */
+"tcQ-Cc-m2p.placeholder" = "contraseña";
+
+/* Class = "UITextField"; placeholder = "zipcode"; ObjectID = "vLK-iT-beG"; */
+"vLK-iT-beG.placeholder" = "código postal";
+
+/* Class = "UIViewController"; title = "productDetailVC"; ObjectID = "yFS-B0-DIz"; */
+"yFS-B0-DIz.title" = "productDetailVC";
+
+/* Class = "UILabel"; text = "overlook"; ObjectID = "zD9-V4-nxE"; */
+"zD9-V4-nxE.text" = "pasar por alto";
+
+/* Class = "UITextField"; placeholder = "_"; ObjectID = "zcW-AZ-rrz"; */
+"zcW-AZ-rrz.placeholder" = "_";

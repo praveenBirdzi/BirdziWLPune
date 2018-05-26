@@ -1,0 +1,268 @@
+{
+    "status": 1,
+    "msg": "sucsess",
+    "store_name": "ABC Store",
+    "store_id": "123",
+    "view_type": "portrait",
+    "data":[
+            {
+            "id": 5,
+            "type": "recipe",
+            "title": "video",
+            "logo": "img_url",
+            "height": 210.5,
+            "width": 320.1,
+            "position": 1,
+            "rounded": 8,
+            "auto_scroll": true,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 2345,
+                                                "title": "recipe one",
+                                                "description": "",
+                                                "url": "http://titlesussex.co.uk/wp-content/uploads/2017/06/Vegan-burger-recipe-Title-Sussex-Magazine.png",
+                                                "info": "Working hours\nMon-Fri 10AM - 6PM\nSat-Sun 9AM - 8PM",
+                                                "card_type": 41
+                                                }
+                                                ]
+            },
+            {
+            "id": 2,
+            "type": "grid",
+            "title": "Hot Deals",
+            "logo": "img_url",
+            "height": 210.5,
+            "width": 320.2,
+            "position": 2,
+            "rounded": 0,
+            "auto_scroll": false,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 12,
+                                                "title": "Save 0.50 $",
+                                                "isAdd": "Save 0.50 $",
+
+                                                "description": "Crystal Farm Butter",
+                                                "url": "https://i5.walmartimages.com/asr/06b73878-ebdf-45aa-8285-10d2800cbc26_1.bc43b527a186dd65c5907d5a776dc93e.jpeg",
+                                                "card_type": 20
+                                                
+                                                },
+                                                {
+                                                "id": 13,
+                                                "title": "Save 0.10 $",
+                                                "description": "Amul Milk",
+                                                "url": "https://cdn.baijshan.com/media/catalog/product/cache/1/image/500x523/9df78eab33525d08d6e5fb8d27136e95/5/2/5248.jpg",
+                                                "card_type": 20
+                                                },
+                                                {
+                                                "id": 14,
+                                                "title": "Easter Special",
+                                                "description": "Butter Milk",
+                                                "url": "https://www.weiherbad.com/CustomerData/416/Files/Images/angebote/ostern-spezial-big.jpg",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 15,
+                                                "title": "test",
+                                                "descrption": "test",
+                                                "url": "https://blogmedia.evbstatic.com/wp-content/uploads/bloguk/2016/02/10173310/special-offers-730x541.jpg",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 16,
+                                                "title": "test",
+                                                "descrption": "test",
+                                                "url": "https://nopedeal.com/wp-content/uploads/2016/06/699.jpg",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 17,
+                                                "title": "10% Off",
+                                                "description": "Tide Detergent",
+                                                "url": "https://images-na.ssl-images-amazon.com/images/I/81q%2BJ1ap-xL._SY355_.jpg",
+                                                "card_type": 20
+                                                }
+                                                ]
+            },
+            {
+            "id": 2,
+            "type": "Billboard",
+            "title": "Offers",
+            "logo": "img_url",
+            "height": 290.5,
+            "width": 290.1,
+            "rounded": 8,
+            "position": 3,
+            "auto_scroll": true,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 4532,
+                                                "title": "",
+                                                "description": "",
+                                                "url": "https://cdn.birdzi.com/003604/000170/gmtest1.html",
+                                                "card_type": 31
+                                                },
+                                                {
+                                                "id": 8745,
+                                                "title": "",
+                                                "descrption": "",
+                                                "url": "https://cdn.birdzi.com/003604/000170/gmtest2.html",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 6785,
+                                                "title": "10% Off",
+                                                "description": "Tide Detergent",
+                                                "url": "https://cdn.birdzi.com/003604/000170/gmtest3.html",
+                                                "card_type": 20
+                                                }
+                                                ]
+            },
+            {
+            "id": 1,
+            "title": "banner",
+            "logo": "img_url",
+            "type": "banner",
+            "height": 150.5,
+            "width": 320.1,
+            "rounded": 8,
+            "position": 4,
+            "auto_scroll": false,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 121313,
+                                                "title": "Make it tonight",
+                                                "description": "Steak with cranberry chutney",
+                                                "url": "https://vinylbannersprinting.co.uk/wp-content/uploads/2016/04/sb25-RA-demo.png",
+                                                "action_url":"birdziapp:product_detail:012:https://s3.amazonaws.com/com.birdzi.production/AppFiles/003604/Images/MORE_Rebates_20170906.mp4",
+                                                "card_type": 10,
+                                                "object_type": "image"
+                                                }
+                                                ]
+            
+            },
+            {
+            "id": 2,
+            "type": "grid",
+            "title": "Offers",
+            "logo": "img_url",
+            "height": 210.5,
+            "width": 320.2,
+            "position": 5,
+            "rounded": 0,
+            "auto_scroll": false,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 21,
+                                                "title": "Save 0.50 $",
+                                                "isAdd": "Save 0.50 $",
+                                                
+                                                "description": "Crystal Farm Butter",
+                                                "url": "https://i5.walmartimages.com/asr/06b73878-ebdf-45aa-8285-10d2800cbc26_1.bc43b527a186dd65c5907d5a776dc93e.jpeg",
+                                                "card_type": 20
+                                                
+                                                },
+                                                {
+                                                "id": 22,
+                                                "title": "Save 0.10 $",
+                                                "description": "Amul Milk",
+                                                "url": "https://cdn.baijshan.com/media/catalog/product/cache/1/image/500x523/9df78eab33525d08d6e5fb8d27136e95/5/2/5248.jpg",
+                                                "card_type": 20
+                                                },
+                                                {
+                                                "id": 23,
+                                                "title": "Easter Special",
+                                                "description": "Butter Milk",
+                                                "url": "https://www.weiherbad.com/CustomerData/416/Files/Images/angebote/ostern-spezial-big.jpg",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 24,
+                                                "title": "test",
+                                                "descrption": "test",
+                                                "url": "https://blogmedia.evbstatic.com/wp-content/uploads/bloguk/2016/02/10173310/special-offers-730x541.jpg",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 25,
+                                                "title": "test",
+                                                "descrption": "test",
+                                                "url": "https://nopedeal.com/wp-content/uploads/2016/06/699.jpg",
+                                                "card_type": 21
+                                                },
+                                                {
+                                                "id": 26,
+                                                "title": "10% Off",
+                                                "description": "Tide Detergent",
+                                                "url": "https://images-na.ssl-images-amazon.com/images/I/81q%2BJ1ap-xL._SY355_.jpg",
+                                                "card_type": 20
+                                                }
+                                                ]
+            },
+            {
+            "id": 14,
+            "type": "Billboard",
+            "title": "Offers",
+            "logo": "img_url",
+            "height": 860.5,
+            "width": 320.1,
+            "position": 6,
+            "rounded": 8,
+            "auto_scroll": false,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 4556,
+                                                "title": "",
+                                                "description": "",
+                                                "url": "https://cdn.birdzi.com/003604/000170/test1.html",
+                                                "card_type": 31
+                                                }
+                                                ]
+            },
+            {
+            "id": 1,
+            "title": "banner",
+            "logo": "img_url",
+            "type": "banner",
+            "height": 100.5,
+            "width": 320.1,
+            "position": 7,
+            "rounded": 8,
+            "auto_scroll": false,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 121313,
+                                                "title": "Make it tonight",
+                                                "description": "Steak with cranberry chutney",
+                                                "url": "https://images-eu.ssl-images-amazon.com/images/G/31/amazonservices/Blog/BuyitRightNow_Banner._V531277681_.png",
+                                                "action_url":"birdziapp:launchurl::http://www.birdzi.com/birdzi-retailer/",
+                                                "card_type": 10,
+                                                "object_type": "image"
+                                                }
+                                                ]
+            
+            },
+            {
+            "id": 5,
+            "type": "StoreInfo",
+            "title": "StoreInfo",
+            "height": 245.1,
+            "width": 320.1,
+            "logo": "img_url",
+            "position": 8,
+            "rounded": 8,
+            "auto_scroll": false,
+            "layout": "horizontal","sub_data": [
+                                                {
+                                                "id": 2345,
+                                                "title": "my_store",
+                                                "Working_hours": "Working hours",
+                                                "description": "Watchung Square Mall,Watchung, NJ, USA, \n+1 908-756-1925",
+                                                "url": "https://cdn.corporate.walmart.com/dims4/WMT/75e34c1/2147483647/crop/5184x2249%2B0%2B1008/resize/1300x564%3E/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Ff0%2F9b%2Fd1d3f74a4c2ebeab7300ed716e4a%2Ftdp-5353.jpg",
+                                                "info": "Working hours\nMon-Fri 10AM - 6PM\nSat-Sun 9AM - 8PM",
+                                                "card_type": 41
+                                                }
+                                                ]
+            }
+            ]
+}
