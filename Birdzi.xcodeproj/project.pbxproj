@@ -58,6 +58,9 @@
 		1B499E4C20876FAF007019F3 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B499E4B20876FAF007019F3 /* ScrollableStackView.swift */; };
 		1B4E9E86209F43D9008B7DB3 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E9E85209F43D9008B7DB3 /* menuView.swift */; };
 		1B4E9E88209F4A73008B7DB3 /* menuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4E9E87209F4A73008B7DB3 /* menuView.xib */; };
+		1B565B0520BC1A730058D600 /* 002-clock-circular-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B565AFD20BC1A6B0058D600 /* 002-clock-circular-outline.png */; };
+		1B565B0620BC1A730058D600 /* 001-phone-call.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B565B0320BC1A6E0058D600 /* 001-phone-call.png */; };
+		1B565B0720BC1A730058D600 /* 003-arrow-down-sign-to-navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B565B0420BC1A720058D600 /* 003-arrow-down-sign-to-navigate.png */; };
 		1B57CF70209A2412004784A9 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57CF6F209A2412004784A9 /* Register.swift */; };
 		1B57CF74209ABA3C004784A9 /* PHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57CF73209ABA3C004784A9 /* PHTextField.swift */; };
 		1B57CF76209C86DB004784A9 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B57CF75209C86DA004784A9 /* credentials.plist */; };
@@ -69,6 +72,7 @@
 		1B636BBD2090BACF00F83612 /* storeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636BBC2090BACF00F83612 /* storeInfo.swift */; };
 		1B710ABE208F4AA4002FD06B /* paggerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B710ABD208F4AA4002FD06B /* paggerCell.swift */; };
 		1B73E03320AC9AF40031E934 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B73E03220AC9AF40031E934 /* CoreBluetooth.framework */; };
+		1B85F41220BE8F56004A822B /* UserAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85F41120BE8F56004A822B /* UserAPIManager.swift */; };
 		1B879C86207FB9D000B66A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B879C85207FB9D000B66A80 /* AppDelegate.swift */; };
 		1B879C88207FB9D000B66A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B879C87207FB9D000B66A80 /* ViewController.swift */; };
 		1B879C8B207FB9D000B66A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B879C89207FB9D000B66A80 /* Main.storyboard */; };
@@ -323,6 +327,9 @@
 		1B4E9E9520A0678A008B7DB3 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
 		1B4E9E9620A0678B008B7DB3 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1B4E9E9820A068FE008B7DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1B565AFD20BC1A6B0058D600 /* 002-clock-circular-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-clock-circular-outline.png"; sourceTree = "<group>"; };
+		1B565B0320BC1A6E0058D600 /* 001-phone-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-phone-call.png"; sourceTree = "<group>"; };
+		1B565B0420BC1A720058D600 /* 003-arrow-down-sign-to-navigate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-arrow-down-sign-to-navigate.png"; sourceTree = "<group>"; };
 		1B57CF6F209A2412004784A9 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		1B57CF73209ABA3C004784A9 /* PHTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHTextField.swift; sourceTree = "<group>"; };
 		1B57CF75209C86DA004784A9 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
@@ -334,6 +341,7 @@
 		1B636BBC2090BACF00F83612 /* storeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeInfo.swift; sourceTree = "<group>"; };
 		1B710ABD208F4AA4002FD06B /* paggerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paggerCell.swift; sourceTree = "<group>"; };
 		1B73E03220AC9AF40031E934 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1B85F41120BE8F56004A822B /* UserAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPIManager.swift; sourceTree = "<group>"; };
 		1B879C82207FB9D000B66A80 /* Birdzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birdzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B879C85207FB9D000B66A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B879C87207FB9D000B66A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -665,6 +673,9 @@
 		1B05775C20A2D4DA00DE836A /* buttons */ = {
 			isa = PBXGroup;
 			children = (
+				1B565B0320BC1A6E0058D600 /* 001-phone-call.png */,
+				1B565AFD20BC1A6B0058D600 /* 002-clock-circular-outline.png */,
+				1B565B0420BC1A720058D600 /* 003-arrow-down-sign-to-navigate.png */,
 				1BB2A8A420B82F18009E3517 /* pin.png */,
 				1BB2A89F20B82BB2009E3517 /* browse_store_marker.png */,
 				1BB2A89E20B82BB1009E3517 /* default_marker.png */,
@@ -831,6 +842,14 @@
 			path = storyboards;
 			sourceTree = "<group>";
 		};
+		1B85F41020BE8F06004A822B /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				1B85F41120BE8F56004A822B /* UserAPIManager.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
 		1B879C79207FB9D000B66A80 = {
 			isa = PBXGroup;
 			children = (
@@ -856,6 +875,7 @@
 		1B879C84207FB9D000B66A80 /* Birdzi */ = {
 			isa = PBXGroup;
 			children = (
+				1B85F41020BE8F06004A822B /* APIModel */,
 				1BB2A89220B7CD1D009E3517 /* model */,
 				1B197F4520AB1C1C00E17BA2 /* Birdzi.entitlements */,
 				1B05775720A2D4DA00DE836A /* assets */,
@@ -1078,6 +1098,7 @@
 				TargetAttributes = {
 					1B879C81207FB9D000B66A80 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1089,10 +1110,12 @@
 					};
 					1B879C95207FB9D200B66A80 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1B879C81207FB9D000B66A80;
 					};
 					1B879CA0207FB9D200B66A80 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1B879C81207FB9D000B66A80;
 					};
 				};
@@ -1241,11 +1264,14 @@
 				1B16D42920B3FB3A003D553B /* hot_deals.png in Resources */,
 				1B05779420A2D4DA00DE836A /* img_splash_background@3x.png in Resources */,
 				1BDEFC8E208DBBBC0028D237 /* bannerView.xib in Resources */,
+				1B565B0520BC1A730058D600 /* 002-clock-circular-outline.png in Resources */,
 				1BDDEE3920AED06D0006E1FB /* ic_dorothy_my_faves_logo@3x.png in Resources */,
 				1B16D41120B3E9A9003D553B /* ic_email_twitter_button.png in Resources */,
 				1B16D41B20B3E9A9003D553B /* ic_email_next_button.png in Resources */,
 				1BDDEE5620AED06D0006E1FB /* ic_dorothy_settings_logo@3x.png in Resources */,
+				1B565B0720BC1A730058D600 /* 003-arrow-down-sign-to-navigate.png in Resources */,
 				1BB2A8A320B82BB4009E3517 /* home_store_marker.png in Resources */,
+				1B565B0620BC1A730058D600 /* 001-phone-call.png in Resources */,
 				1B16D42A20B3FB3A003D553B /* clip.png in Resources */,
 				1B05775420A2CCC200DE836A /* Gemfile in Resources */,
 				1BDDEE3D20AED06D0006E1FB /* ic_dorothy_rewards_logo.png in Resources */,
@@ -1445,6 +1471,7 @@
 				1B1ADED9208E3DC100A4DB04 /* poductGrid.swift in Sources */,
 				1BDDEE0D20AECE3F0006E1FB /* Menu.swift in Sources */,
 				1B499E4C20876FAF007019F3 /* ScrollableStackView.swift in Sources */,
+				1B85F41220BE8F56004A822B /* UserAPIManager.swift in Sources */,
 				1BA49B052085D2640057AC02 /* iForgot.swift in Sources */,
 				1BDDEE1420AECFE80006E1FB /* menuCell.swift in Sources */,
 				1B34D09E208EF5F900FD5659 /* productCell.swift in Sources */,
@@ -1650,7 +1677,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.birdzi.Birdzi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdzipune.mycounty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1677,7 +1704,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.birdzi.Birdzi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.birdzipune.mycounty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -18,6 +18,8 @@ class ShoppingList: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var menuList :NSMutableArray = []
     var menuImgList :NSMutableArray = []
+    var getBarcodeURL :String = ""
+
     // var transition: JTMaterialTransition?
     var animatedImage: UIImageView!
     @IBOutlet weak var bgBlure: UIImageView!

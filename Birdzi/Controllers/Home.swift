@@ -25,7 +25,7 @@ class Home: UIViewController {
 
     let nopeButton = UIButton()
     let yupButton = UIButton()
-
+    let defaults = UserDefaults.standard
     @IBOutlet weak var listCount: UILabel!
     var grid1 :NSMutableArray = []
     var grid2 :NSMutableArray = []
@@ -52,17 +52,23 @@ class Home: UIViewController {
       self.APICall()
         self.transition = JTMaterialTransition(animatedView: self.menuBtn)
         self.transition?.transitionDuration = 0.6
-
-     if(!UserDefaults.standard.bool(forKey: "isHomeSet") && UserDefaults.standard.bool(forKey: "hasLogin"))
+       GlobalVariables.globalCustID = self.defaults.string(forKey: "customerid")!
+        GlobalVariables.globalCustKey = self.defaults.string(forKey: "customersharedsecret")!
+     if(!defaults.bool(forKey: "isHomeSet") && defaults.bool(forKey: "hasLogin"))
      {
         let height = self.logoImg.frame.origin.y + self.logoImg.frame.size.height ;
-        
+        var yAxis : Float = 5.0
+        if UIDevice().userInterfaceIdiom == .phone && UIScreen.main.nativeBounds.height == 2436 {
+            //iPhone X
+            yAxis = 18
+            
+        }
         self.headView =  SpringView(frame: CGRect(origin: CGPoint(x: 0,y :0), size: CGSize(width: self.view.frame.width , height: height )))
         self.headView.autostart = true
         self.headView.duration = 2.0
         self.headView.animation = "slideDown"
         self.headView.backgroundColor = .white
-        let headLbl : UILabel = UILabel(frame: CGRect(origin: CGPoint(x: 10,y :5), size: CGSize(width: self.view.frame.width - 10, height: height - 50 )))
+        let headLbl : UILabel = UILabel(frame: CGRect(origin: CGPoint(x: 10,y :Int(yAxis)), size: CGSize(width: self.view.frame.width - 10, height: height - 50 )))
          headLbl.text = String(format: "Based on your zip code, we've set your home store to XYZ Is that the right store for you?")
         headLbl.numberOfLines = 4
          let fontStyle = UIFont(name: "HelveticaNeue-Bold", size: 13)
@@ -76,7 +82,7 @@ class Home: UIViewController {
      //   let regularAttribute = [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 15.0)!]
         
         let beginningAttributedString = NSAttributedString(string: "Based on your zip code, we've set your home store to ", attributes: regularAttribute )
-        let boldAttributedString = NSAttributedString(string: UserDefaults.standard.string(forKey: "storeName")!, attributes: boldAttribute)
+        let boldAttributedString = NSAttributedString(string: defaults.string(forKey: "storeName")!, attributes: boldAttribute)
         let endAttributedString = NSAttributedString(string: "\nIs that the right store for you?", attributes: regularAttribute )
         let fullString =  NSMutableAttributedString()
         
@@ -182,13 +188,13 @@ class Home: UIViewController {
         
         let headers: HTTPHeaders = [
             "appkey": GlobalVariables.globalAppKey,
-            "customerid" : UserDefaults.standard.string(forKey: "customerid")!,
-            "customerkey" :  UserDefaults.standard.string(forKey: "customersharedsecret")!,
+            "customerid" : defaults.string(forKey: "customerid")!,
+            "customerkey" :  defaults.string(forKey: "customersharedsecret")!,
             "companyid" : GlobalVariables.globalCompanyId,
             "deviceid" : "020000000000",
-            "homestoreid": String(format: "%d",UserDefaults.standard.integer(forKey: "browsestoreId")),
+            "homestoreid": String(format: "%d",defaults.integer(forKey: "browsestoreId")),
             "modifiedbycontactid" : "",
-            "browsestoreid" : String(format: "%d",UserDefaults.standard.integer(forKey: "browsestoreId")),
+            "browsestoreid" : String(format: "%d",defaults.integer(forKey: "browsestoreId")),
             "locale" : "ENGLISH"
         ]
         //      Birdzi@123
@@ -213,11 +219,11 @@ class Home: UIViewController {
                                 let snackbar = TTGSnackbar(message: results.value(forKey: "message") as! String , duration: .long)
                                 snackbar.messageTextColor = .green
                                 snackbar.show()
-                            //    UserDefaults.standard.set(true, forKey:"isHomeSet")
+                            //    defaults.set(true, forKey:"isHomeSet")
 
                                 
                                 
-                                //   UserDefaults.standard.set(true, forKey:"hasLogin")
+                                //   defaults.set(true, forKey:"hasLogin")
                                 
                             }
                                 
@@ -287,13 +293,13 @@ class Home: UIViewController {
             "appkey": GlobalVariables.globalAppKey,
             "companyid" : GlobalVariables.globalCompanyId,
             "deviceid": "020000000000",
-      //      "deviceid" :  UserDefaults.standard.string(forKey: "customerdeviceid")!,
+      //      "deviceid" :  defaults.string(forKey: "customerdeviceid")!,
             "advertisingidentifier": "B691A224-537E-46B0-A629-9F3D096F12DD",
             "version" :"2.9.2-1",
              "osversion" : "11.3",
             "blecapable" : "FALSE",
-            "customerid" : UserDefaults.standard.string(forKey: "customerid")!,
-            "customerkey" :  UserDefaults.standard.string(forKey: "customersharedsecret")!,
+            "customerid" : defaults.string(forKey: "customerid")!,
+            "customerkey" :  defaults.string(forKey: "customersharedsecret")!,
             "devicetypecode" : "iphone",
             "devicetoken":  "1"
         ]
@@ -317,10 +323,10 @@ class Home: UIViewController {
                               //  self.jsonResult = results.value(forKey: "data") as! NSDictionary
                               //  self.readLocalJsonFile()
                                 if let details = (results.value(forKey: "data")) as? NSDictionary {
-                                  UserDefaults.standard.set(details.value(forKey: "proximityuuid") as! String, forKey:"UUID")
+                                    self.defaults.set(details.value(forKey: "proximityuuid") as! String, forKey:"UUID")
 //                                    Beacons.shared.clManager = CLLocationManager()
 //                                    Beacons.shared.clManager.requestAlwaysAuthorization()
-//                                    Beacons.shared.searchBeacon(uuid: UserDefaults.standard.string(forKey: "UUID")!, appkey: GlobalVariables.globalAppKey, company_id: GlobalVariables.globalCompanyId, device_id: "020000000000", cust_key: UserDefaults.standard.string(forKey: "customersharedsecret")!, cust_id: UserDefaults.standard.string(forKey: "customerid")!, browser_store_id: "")
+//                                    Beacons.shared.searchBeacon(uuid: defaults.string(forKey: "UUID")!, appkey: GlobalVariables.globalAppKey, company_id: GlobalVariables.globalCompanyId, device_id: "020000000000", cust_key: defaults.string(forKey: "customersharedsecret")!, cust_id: defaults.string(forKey: "customerid")!, browser_store_id: "")
 //
 //                                    Beacons.shared.clManager.requestAlwaysAuthorization()
                                 }

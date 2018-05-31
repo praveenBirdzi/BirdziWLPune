@@ -119,6 +119,9 @@ class Register: UIViewController,UITextFieldDelegate {
             "lastname" : self.lastNameTxt.text!,
             "zip" : self.zipTxt.text!,
             "phone" : self.phoneTxt.text!,
+            "devicetypecode": "iphone",
+            "devicetoken": "1",
+            "advertisingidentifier": "B691A224-537E-46B0-A629-9F3D096F12DD",
             "yob" : "0",
             "city" : "0",
             "gender" : "",
@@ -151,10 +154,11 @@ class Register: UIViewController,UITextFieldDelegate {
                                     UserDefaults.standard.set(details.value(forKey: "customersharedsecret") as! String, forKey:"customersharedsecret")
 
                                     UserDefaults.standard.set(String(format:" %@ %@ ", details.value(forKey: "apptitle1") as! String, details.value(forKey: "apptitle2") as! String), forKey:"storeName")
-                                    
+                                    UserDefaults.standard.set(true, forKey:"hasLogin")
+                                    let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! Home
+                                    self.navigationController?.pushViewController(secondVC, animated: true)
                                 }
-                                let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! Home
-                                self.navigationController?.pushViewController(secondVC, animated: true)
+                              
                             }
                            
                             else

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-let getBaseUrl = "https://apirbziapp-dev.birdzi.com/"
+let getBaseUrl = "https://apirbziapp-qa.birdzi.com/"
 let getLoginUrl = getBaseUrl+"customers/login"
 let getValidateEmailUrl =  getBaseUrl+"customers/checkEmailValidity"
 let getRegisterUrl =  getBaseUrl+"customers/registercustomer"
@@ -17,8 +17,11 @@ let getLoyaltyValidateUrl =  getBaseUrl+"loyalty/validateloyaltyno"
 let getVersionUrl =  getBaseUrl+"appresource/appversion"
 let getStoreListWithZipUrl = getBaseUrl+"stores/liststoresaroundzip"
 let setHomeStorUrl = getBaseUrl+"stores/sethomestore"
+let getProductByEanUrl = getBaseUrl+"products/getproductbyean"
+let getProductByUpcUrl = getBaseUrl+"products/getproductbyupc"
+let getProductByTextUrl = getBaseUrl+"products/getproductbytext"
 
- 
+
  struct GlobalVariables {
     
     static var globalString = "MyString"
@@ -33,6 +36,8 @@ let setHomeStorUrl = getBaseUrl+"stores/sethomestore"
     static var globalAppKey = ""
     static var globalCompanyId = ""
     static var globalUDID = ""
+    static var globalCustID = ""
+    static var globalCustKey = ""
 
   //  static var globalDeviceId = UIDevice.current.identifierForVendor?.uuidString
  //   "020000000000"

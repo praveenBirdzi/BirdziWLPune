@@ -1,9 +1,9 @@
 
 /* Class = "UILabel"; text = "overlook"; ObjectID = "09O-oB-3ik"; */
-"09O-oB-3ik.text" = "overlook";
+"09O-oB-3ik.text" = "County Market";
 
 /* Class = "UILabel"; text = "marketplace"; ObjectID = "2Wn-qe-DZs"; */
-"2Wn-qe-DZs.text" = "marketplace";
+"2Wn-qe-DZs.text" = "We Value you";
 
 /* Class = "UITextField"; placeholder = "last name"; ObjectID = "5td-JL-Iyf"; */
 "5td-JL-Iyf.placeholder" = "last name";
@@ -33,7 +33,7 @@
 "Ap4-6P-bAA.text" = "generating awesomesauce";
 
 /* Class = "UILabel"; text = "overlook"; ObjectID = "BGl-sa-ckt"; */
-"BGl-sa-ckt.text" = "overlook";
+"BGl-sa-ckt.text" = "County Market";
 
 /* Class = "UILabel"; text = "0 items"; ObjectID = "ECX-Q9-HRq"; */
 "ECX-Q9-HRq.text" = "0 items";
@@ -57,7 +57,7 @@
 "K2Y-py-DYB.normalTitle" = "Back To Home";
 
 /* Class = "UILabel"; text = "marketplace"; ObjectID = "K4V-z7-Gnl"; */
-"K4V-z7-Gnl.text" = "marketplace";
+"K4V-z7-Gnl.text" = "we value you";
 
 /* Class = "UITextField"; placeholder = "e-mail"; ObjectID = "MRk-Oe-kfk"; */
 "MRk-Oe-kfk.placeholder" = "e-mail";
@@ -99,7 +99,7 @@
 "mW6-MT-kU0.normalTitle" = "DONE";
 
 /* Class = "UILabel"; text = "marketplace"; ObjectID = "rSz-vq-u6m"; */
-"rSz-vq-u6m.text" = "marketplace";
+"rSz-vq-u6m.text" = "we value you";
 
 /* Class = "UIViewController"; title = "Home"; ObjectID = "sYd-bo-cBh"; */
 "sYd-bo-cBh.title" = "Home";
@@ -114,7 +114,7 @@
 "yFS-B0-DIz.title" = "productDetailVC";
 
 /* Class = "UILabel"; text = "overlook"; ObjectID = "zD9-V4-nxE"; */
-"zD9-V4-nxE.text" = "overlook";
+"zD9-V4-nxE.text" = "County Market";
 
 /* Class = "UITextField"; placeholder = "_"; ObjectID = "zcW-AZ-rrz"; */
 "zcW-AZ-rrz.placeholder" = "_";

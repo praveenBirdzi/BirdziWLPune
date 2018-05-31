@@ -11,7 +11,8 @@
   "socialEnabled": true,
   "vendorFooter": true,
   "isLoyalty": false,
-  "isLoading" : true,
+  "isLoading" : false,
+  "barcodeType" : "UPC",
   "iconVisible": true,
   "splash_text": "Overlook_marketplace",
   "splashTextVisible": true,
@@ -36,7 +37,6 @@
               "Google_Login":"28277024700-099cnjqlihreav1n8ot9tl4gb2gnodl2.apps.googleusercontent.com",
               "Twitter":"hZWixCs9oYXFeVVZNvC0xHx0P",
               "TwitterSecret":"folaPIdbkrVYlLl2zfesoE6aPb6yXiFpEDE4RjYzj1cv42CgpH",
-
               "Hockey":"631524d2b0be4ced8eec1e6c99cd2941",
               "Google_Anyalists":"",
               "Facebook_anyalist":""

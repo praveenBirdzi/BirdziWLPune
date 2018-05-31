@@ -39,12 +39,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate{
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.APICall()
+        UserDefaults.standard.set("", forKey: "barcodeType")
 
         UserDefaults.standard.set("home", forKey: "SelectedMenu")
-        UserDefaults.standard.set(false, forKey: "isHomeSet")
-        UserDefaults.standard.set("", forKey: "UUID")
-        UserDefaults.standard.set("", forKey: "customerid")
-        UserDefaults.standard.set("", forKey: "customersharedsecret")
+        if(!UserDefaults.standard.bool(forKey: "hasLogin"))
+        {
+            UserDefaults.standard.set(false, forKey: "isHomeSet")
+            UserDefaults.standard.set("", forKey: "UUID")
+            UserDefaults.standard.set("", forKey: "customerid")
+            UserDefaults.standard.set("", forKey: "customersharedsecret")
+        }
+      
         
         TWTRTwitter.sharedInstance().start(withConsumerKey: "hZWixCs9oYXFeVVZNvC0xHx0P", consumerSecret:"folaPIdbkrVYlLl2zfesoE6aPb6yXiFpEDE4RjYzj1cv42CgpH")
         GIDSignIn.sharedInstance().delegate = self as GIDSignInDelegate
@@ -94,6 +99,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate{
                     GlobalVariables.globalcKey = jsonResult.value(forKey: "ckey") as! String
                     GlobalVariables.globalAppKey = jsonResult.value(forKey: "appKey") as! String
                     GlobalVariables.globalCompanyId = jsonResult.value(forKey: "cID") as! String
+                    UserDefaults.standard.set(jsonResult.value(forKey: "barcodeType") as! String, forKey: "barcodeType")
+
                      if let detail = (jsonResult.value(forKey: "APIKey")) as? NSDictionary {
                         self.details = detail
                         BITHockeyManager.shared().start()

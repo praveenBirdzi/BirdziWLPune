@@ -35,7 +35,7 @@ class Menu: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSourc
         searchTxt.layer.shadowOffset = CGSize(width:0.0,  height:1.0)
         bgBlure.blurImageMenu(frame: self.logoImg.frame)
         self.logoImg.image = logo_img
-        self.transition = JTMaterialTransition(animatedView: self.menuBtn)
+         self.transition = JTMaterialTransition(animatedView: self.menuBtn)
         self.transition?.transitionDuration = 0.6
         // Do any additional setup after loading the view.
     }
